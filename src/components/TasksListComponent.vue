@@ -3,7 +3,10 @@
     <h2>lista de Tareas</h2>
     <input type="text" v-model="newTask" @keyup.enter="addTask" />
     <ul>
-      <li v-for="(task, index) in tasks" :key="index">{{ task }}</li>
+      <li v-for="(task, index) in tasks" :key="index">
+        {{ task }}
+        <button @click="deleteTask">Borrar</button>
+      </li>
     </ul>
   </div>
 </template>
@@ -14,6 +17,9 @@ const newTask = ref('')
 const addTask = () => {
   tasks.value.push(newTask.value)
   newTask.value = ''
+}
+const deleteTask = (index) => {
+  tasks.value.splice(index, 1)
 }
 </script>
 <style></style>

@@ -12,3 +12,5 @@ style scoped: css del componente
 @keyup: ejecutar un evento presionando una tecla
 
 v-for: bucle for de Javascript en Vue
+
+.splice(): funcion para arrays que modifica el contenido del array, eliminando el elemento existente
