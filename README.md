@@ -1,35 +1,14 @@
-# .
+propriedad principal de Vue
+ref() o reactive: es capacidad de los datos de un componente Vue de estar enlazados de forma bidireccional con la vista, es decir que al cambiar los datos la vista se actualiza autimaticamente para reflejar los cambios. Hay que importarlo entre llaves from vue
 
-This template should help get you started developing with Vue 3 in Vite.
+template: codigo html
 
-## Recommended IDE Setup
+script setup: datos escritos en javascript. Para modificar cualquier constante es necesario escribir constante.value
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+style scoped: css del componente
 
-## Customize configuration
+@click: evento click en Vue
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+@keyup: ejecutar un evento presionando una tecla
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+v-for: bucle for de Javascript en Vue
