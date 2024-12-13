@@ -1,4 +1,5 @@
 <template>
+  <Header></Header>
   <div class="container">
     <Sidebar></Sidebar>
     <div class="content">
@@ -8,6 +9,7 @@
 </template>
 
 <script setup>
+import Header from '@/components/HeaderComponent.vue'
 import Sidebar from '@/components/SidebarComponent.vue'
 </script>
 
